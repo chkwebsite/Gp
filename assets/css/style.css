@@ -1690,7 +1690,7 @@ section {
   position: absolute;
   right: -10px;
   top: 180px;
-  background: #444343;
+  background: #ffc451;
   border: none;
   color: transparent;
   width: 25px;
@@ -1699,7 +1699,7 @@ section {
 .Gallery-home .slick-prev.slick-arrow::before{
   content: "\f30b";
   font-family: fontawesome;
-  color: #fbfbfb;
+  color: #434343;
   font-size: 16px;
   position: relative;
   top: 0px;
@@ -1708,7 +1708,7 @@ section {
   position: absolute;
   left: -10px;
   top: 180px;
-  background: #444343;
+  background: #ffc451;
   border: none;
   color: transparent;
   width: 25px;
@@ -1717,7 +1717,7 @@ section {
 .Gallery-home .slick-next.slick-arrow::before{
   content: "\f177";
   font-family: fontawesome;
-  color: #fbfbfb;
+  color: #434343;
   font-size: 16px;
   position: relative;
   top: 0px;
@@ -1736,14 +1736,18 @@ ul.advant li{
   width: 100%;
   height: auto;
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 12px;
 }
-ul.advant li h5{
-  position: absolute;
-  top: 0px;
-}
-ul.advant li small{
+ul.advant li div{
   position: relative;
-  top: 0px;
+  top: -24px;
 }
-
+@media(max-width:768px){
+  ul.advant li {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 0px;
+}
+}
