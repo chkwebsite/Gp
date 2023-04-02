@@ -1750,4 +1750,7 @@ ul.advant li div{
     position: relative;
     padding-bottom: 0px;
 }
+ul.advant{
+  margin-bottom: 15px;
+}
 }
