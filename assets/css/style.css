@@ -9,8 +9,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: roboto-r;
+  src: url(../../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-l;
+  src: url(../../fonts/Roboto-Light.ttf);
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "roboto-r", roboto-l;
   color: #444444;
 }
 
@@ -30,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-r", Poppins;
 }
 
 /*--------------------------------------------------------------
@@ -123,11 +131,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background-color: #ffffff;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background:#eeeeee;
 }
 
 #header .logo {
@@ -141,7 +150,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #504848;
 }
 
 #header .logo a span {
@@ -208,7 +217,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #504848;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -433,7 +442,7 @@ h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto-r", Poppins;
 }
 
 #hero h1 span {
@@ -525,7 +534,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto-r",Poppins;
 }
 
 .section-title h2::after {
@@ -543,7 +552,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto-r",Poppins;
   color: #151515;
 }
 
@@ -553,7 +562,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto-r",Poppins;
 }
 
 .about .content ul {
@@ -727,7 +736,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-r",Poppins;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -975,7 +984,7 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-r",Poppins;
   font-size: 14px;
   color: #3b3b3b;
 }
@@ -986,7 +995,7 @@ section {
   margin-top: 20px;
   color: #3b3b3b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "roboto-r",Poppins;
   transition: ease-in-out 0.3s;
 }
 
@@ -1436,7 +1445,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family:"roboto-r",Poppins;
   color: #fff;
 }
 
