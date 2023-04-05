@@ -220,6 +220,7 @@ h6 {
   color: #504848;
   white-space: nowrap;
   transition: 0.3s;
+  text-shadow: none;
 }
 
 .navbar a i,
