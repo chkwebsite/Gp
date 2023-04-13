@@ -17,9 +17,13 @@
   font-family: roboto-l;
   src: url(../../fonts/Roboto-Light.ttf);
 }
+html {
+  font-family: "roboto-l", roboto-r;
+  color: #918a8a;
+}
 body {
-  font-family: "roboto-r", roboto-l;
-  color: #444444;
+  font-family: "roboto-l", roboto-r;
+  color: #918a8a;
 }
 
 a {
@@ -556,7 +560,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "roboto-r",Poppins;
-  color: #151515;
+  color: #6c6969;
 }
 
 /*--------------------------------------------------------------
@@ -1764,5 +1768,8 @@ ul.advant li div{
 }
 ul.advant{
   margin-top: 20px;
+}
+.section-title p {
+  font-size: 28px;
 }
 }
